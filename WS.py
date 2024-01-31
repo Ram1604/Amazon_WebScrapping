@@ -8,7 +8,7 @@ URL = "https://www.amazon.in/dp/B0CHX3RP9R?ref=ods_ucc_kindle_B0CHX3RP9R_nrc_ucc
 r = requests.get(URL, headers=headers)
 print(r.status_code)
 
-#prasing content
+#prasing content of HTML
 soup = BeautifulSoup(r.text, 'lxml')
 print(soup.prettify())
 
