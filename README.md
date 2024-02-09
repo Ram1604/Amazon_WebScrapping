@@ -1,5 +1,5 @@
 <h1>Title:  Web Scrapping from Amazon Website using Python</h1>
-<h2>Description: This project uses python to extract a single product detail from amazon website using libraries like requests, beautifulSoup.</h2>
+<h2>Description: The project uses python to extract a single product detail from amazon website using libraries like requests, beautifulSoup.</h2>
 
 <b>Installing Libraries</b>
 <li>pip install requests</li>
